@@ -1,16 +1,28 @@
-<title>W3.CSS Template</title>
+<title>French Résilience</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+
+
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {	font-family: 'Arvo', Georgia, Times, serif;}
 body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
 }
+
+p {
+	font-family: ' PT Sans', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4 , .bgimg-5, .bgimg-6 {
@@ -22,13 +34,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url("https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/chez-marie-restaurant.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/french-flag-flies.jpg");
   min-height: 1000px;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image:url("https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/french-flag-flies.jpg");
+  background-image:url("https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/chez-marie-restaurant.jpg");
   min-height: 600px;
 }
 
@@ -70,8 +82,8 @@ body, html {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>  S'INFORMER</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> AGIR</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
@@ -80,8 +92,8 @@ body, html {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()"> S'INFORMER</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">AGIR</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
@@ -94,35 +106,61 @@ body, html {
 -->
 
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+<div class="bgimg-1 w3-display-container " id="home" style="padding-bottom:150px" >
   <div class="w3-display-middle" style="white-space:nowrap;">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-left">FRENCH</span>
-    <span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-right">APOCALYPSE</span>
+    <span class="w3-center w3-padding-large w3-white w3-xlarge w3-wide w3-animate-right">RÉSILIENCE</span>
   </div>
   <div class="w3-display-bottommiddle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-hide-small ">Ou comment le changement climatique boulversera nos vies</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-hide-small "> Comprendre le boulversesement de nos vies : Constat et solutions</span>
   </div>
 </div>
 
-<div class=" w3-display-container w3-padding-64 w3-row w3-dark-grey">
+<div class=" w3-display-container  w3-row w3-dark-grey"  style="padding-top:150px;padding-bottom:150px">
   <div class = "w3-col s4 w3-container w3-display-container w3-center">
     <a  href="https://www.ipcc.ch/">
-      <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/IPCC_Logo.jpg" style="width:100%;max-width:250px" alt="IPPClogo">  
+      <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/IPCC_Logo.jpg" style="width:100%;max-width:250px" alt="IPPClogo"  class="w3-round">  
     </a>
    </div>
    <div class = "w3-col s4 w3-container">
      <h2 class="w3-center-align">ET SI LE GIEC AVAIT RAISON ?</h2>
-     <p class = "w3-center-align"> Les experts alertent depuis des annés et pourtant cela ne semblent pas nous toucher outre mesure, mais au fond que change quelques degrés de plus a l'échelle de la france ? et puis les energies renouvables vont nous sauver non ? </p> 
-     <p class = "w3-center-align"> Venez découvrir à quel point notre civilisation est sur le point de changer  </p>
+     <p class = "w3-center-align"> Les experts alertent depuis des annés et pourtant cela ne semblent pas nous toucher outre mesure, mais au fond que change quelques degrés de plus a l'échelle de la france ? Et puis les energies renouvables vont nous sauver ! non ? Peut être faudrait-il commencer par lire les <a href = "https://www.ipcc.ch/srccl/chapter/summary-for-policymakers">conclusions du GIEC </a>  ?</p>   
+     <p class = "w3-center-align">Les moins de 20 ans qui grandissent aujourd'hui pourront-ils profiter d'un pays aussi stable que nous le connaissons ? Il est probable que non, a nous de la faconner pour limiter les risques. </p> 
     </div> 
    <div class = "w3-col s4 w3-container w3-center  ">
       <h1 class="w3-center-align w3-jumbo">4 ° C</h1>
    </div>
 </div>
 
+<div class=" w3-display-container w3-row w3-light-grey">
+  <div class = "w3-col s4 w3-container w3-display-container w3-center">
+   </div>
+   <div class = "w3-col s4 w3-container w3-center">
+     <a class = "w3-center-align" style = "font-family: 'Parisienne', Georgia, Times, serif; font-size: 30px;line-height: 60px;" > Mal nommer les choses, c'est ajouter au malheur du monde.  </a>
+  <p class = "w3-right-align">Albert Camus</p>
+   <div class = "w3-col s4 w3-container w3-center  ">
+   </div> 
+ </div> 
+</div>
 
+<div class=" w3-display-container w3-row w3-dark-grey"style="padding-top:200px;padding-bottom:200px">  
+    <div class = "w3-col s4 w3-container">
+      <a href = "http://www.drias-climat.fr/decouverte/parcours/neo/temperature/carte">
+       <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/carto_actuelle.png" style="width:100%;max-width:400px" alt="temp actuelle rise" class="w3-round">  
+     </a> 
+    </div> 
 
-<div class=" w3-display-container w3-padding-64 w3-row w3-light-grey">
+ <div class = "w3-col s4 w3-container w3-display-container">
+    Le devrait tellement changer que Marseille se transformera en Tanger, La foret de fontebleau devrait bruler comme les foret du gars!  
+   </div>
+  <div class = "w3-col s4 w3-container w3-center">
+      <a href = "http://www.drias-climat.fr/decouverte/parcours/neo/temperature/carte">
+       <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/carto_2041.png" style="width:100%;max-width:400px" alt="temp rise" class="w3-round">  
+     </a>
+   </div>
+</div>
+
+<div class=" w3-display-container w3-row w3-light-grey"style="padding-top:200px;padding-bottom:200px">
   
    <div class = "w3-col s4 w3-container w3-center">
      <h2 class="w3-center-align">La Mer Monte inexorablement</h2>
@@ -132,33 +170,22 @@ body, html {
 
    <div class = "w3-col s4 w3-container w3-display-container">
      <a href = "http://flood.firetree.net/?ll=48.0945,2.6340&zoom=7&m=2">
-       <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/Sea-rise-nantes.JPG" style="width:100%;max-width:400px" alt="Sea rise">  
+       <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/Sea-rise-nantes.JPG" style="width:100%;max-width:400px" alt="Sea rise"  class="w3-round">  
      </a>
       </div>
       
     <div class = "w3-col s4 w3-container">
-     <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/Sea%20level.JPG" style="width:500%;max-width:600px" alt="https://www.psmsl.org/">  
+     <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/Sea%20level.JPG" style="width:500%;max-width:600px" alt="https://www.psmsl.org/"  class="w3-round">  
     </div> 
 </div>
 
 
-<div class=" w3-display-container w3-padding-64 w3-row w3-light-grey">
-  <div class = "w3-third w3-container w3-display-container">
-   <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/IPCC_Logo.jpg" style="width:100%;max-width:400px" alt="IPPClogo">  
-   </div>
-   <div class = "w3-twothird w3-container">
-      <p class = "w3-center-align"> Les experts alertent depuis des annés et pourtant cela ne semblent pas nous toucher outre mesure, mais au fond que change quelques degrés de plus a l'échelle de la france ? et puis les energies renouvables vont nous sauver non ? </p> 
-     <p class = "w3-center-align"> Venez découvrir à quel point notre civilisation est sur le point de changer  </p>
-   </div>
-</div>
 <!-- Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">OUI MAIS EN FRANCE TOUT IRA BIEN ?</span>
+    <span class="w3-xxlarge w3-text-white">OUI MAIS EN FRANCE TOUT IRA BIEN ?</span>
   </div>
 </div>
-
-
 
 
 <!-- Container (Portfolio Section) -->
@@ -167,14 +194,14 @@ body, html {
 </div>
 
 <div class=" w3-display-container w3-padding-64 w3-row w3-light-grey">
-  <div class = "w3-col s4 w3-container w3-display-container">
-   <p class = "w3-center-align"> 1 - Alimentation </p> 
+  <div class = "w3-col s4 w3-container w3-display-container w3-center">
+   <p class = "w3-center-align"> Alimentation </p> 
    </div>
-   <div class = "w3-col s4 w3-container">
-       <p class = "w3-center-align"> 2 - energie </p> 
+   <div class = "w3-col s4 w3-container w3-center">
+       <p class = "w3-center-align"> energie </p> 
    </div>
-    <div class = "w3-col s4 w3-container">
-      <p class = "w3-center-align"> 1 - Société </p> 
+    <div class = "w3-col s4 w3-container w3-center">
+      <p class = "w3-center-align">  Société </p> 
     </div> 
 </div>
 
@@ -219,7 +246,7 @@ body, html {
    <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/IPCC_Logo.jpg" style="width:100%;max-width:400px" alt="IPPClogo">  
    </div>
    <div class = "w3-col s4 w3-container">
-       <h2>  uUn approviosoonement très dépendant  </h2>
+       <h2>  Un approviosoonement très dépendant  </h2>
    </div>
     <div class = "w3-col s4 w3-container">
      <img src="https://cdn.jsdelivr.net/gh/EricBLaporte/angular-apo-n8scpt@master/src/assets/img/IPCC_Logo.jpg" style="width:100%;max-width:400px" alt="IPPClogo">  
